@@ -1,0 +1,18 @@
+<config>
+    <type name="Magento\Catalog\Model\Product">
+      <plugin name="Product" type="Praveen\Pluginname\Plugin\Product" sortOrder="1" disabled="false"/>
+    </type>
+</config>
+
+
+<!-- <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+        <type name="Magento\Catalog\Model\Product">
+            <plugin name="After_Product" type="Praveen\Pluginname\Plugin\ProductAfter"/>
+        </type>
+    </config> -->
+
+
+<!-- <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:objectManager/etc/config.xsd">   
+ <preference for="Magento\Catalog\Model\Product" type="Praveen\Pluginname\Model\Product"/>
+        
+    </config> -->
